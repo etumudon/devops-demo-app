@@ -1,0 +1,25 @@
+{
+  "name": "devops-demo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Tests Passed\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etumudon/DevOps-demo-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/etumudon/DevOps-demo-app/issues"
+  },
+  "homepage": "https://github.com/etumudon/DevOps-demo-app#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
