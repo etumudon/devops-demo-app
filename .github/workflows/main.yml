@@ -27,7 +27,7 @@ jobs:
         run: npm test
 
       - name: Build Docker Image
-        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/DevOps-demo-app:latest .
+        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/devOps-demo-app:latest .
 
       - name: Login to DockerHub
         uses: docker/login-action@v3
@@ -36,4 +36,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Push Docker Image
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/Devops-demo-app:latest
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/devops-demo-app:latest
